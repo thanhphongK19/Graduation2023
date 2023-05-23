@@ -8,5 +8,8 @@
 ## 3. SOFTWARE
 
 ### 3.1 Raspberry pi 4
+Two thread in raspberry pi
+<img src="https://github.com/baolong1507/Graduation_2023/assets/108928423/3227844a-b88d-44af-86db-646a7bd280fb">
+
 
 ### 3.2 Android application
