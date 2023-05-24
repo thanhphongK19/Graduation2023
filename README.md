@@ -3,7 +3,7 @@
 <img src="https://github.com/thanhphongK19/Graduation2023/assets/108928423/fd3669f6-ab5f-4a54-a177-75240e81225f">
 
 ## 2. HARDWARE
-<img src="https://github.com/baolong1507/Graduation_2023/assets/108928423/550f165f-e412-403a-842b-2d9f0d31a48a">
+<img src="https://github.com/thanhphongK19/Graduation2023/assets/108928423/6c068893-c27d-479e-bf72-322dda11e96c">
 
 ## 3. SOFTWARE
 
