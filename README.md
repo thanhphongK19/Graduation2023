@@ -9,7 +9,7 @@
 
 ### 3.1 Raspberry pi 4
 Two thread in raspberry pi
-<img src="https://github.com/baolong1507/Graduation_2023/assets/108928423/3227844a-b88d-44af-86db-646a7bd280fb">
+<img src="https://github.com/thanhphongK19/Graduation2023/assets/108928423/c22ee8c2-b483-4c18-acfe-a1cf14644a6d">
 
 
 ### 3.2 Android application
