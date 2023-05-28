@@ -13,3 +13,7 @@ Two thread in raspberry pi
 
 
 ### 3.2 Android application
+<img src="https://github.com/thanhphongK19/Graduation2023/assets/108928423/06ad66d4-3abf-4ba3-a5cb-03597fb95570">
+<img src="https://github.com/thanhphongK19/Graduation2023/assets/108928423/5359f92e-c9d2-4b0c-a365-2f6990b804fd">
+<img src="https://github.com/thanhphongK19/Graduation2023/assets/108928423/2943897f-7fb0-4fdf-8285-fd5249270280">
+<img src="https://github.com/thanhphongK19/Graduation2023/assets/108928423/39ae4469-4570-461c-8ee3-55d39db45a52">
