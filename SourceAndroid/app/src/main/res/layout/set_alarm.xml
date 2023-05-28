@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".setAlarm"
+    android:background="#EDEFED">
+
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="#EDEFED"
+        android:numbersTextColor="@android:color/black"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:timePickerMode="spinner" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/timePicker"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/monday"
+            android:layout_width="42dp"
+            android:layout_height="35dp"
+            android:background="@drawable/rectangle_3"
+            android:text="Th2"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tuesday"
+            android:layout_width="42dp"
+            android:layout_height="35dp"
+            android:background="@drawable/rectangle_3"
+            android:text="Th3"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/wednesday"
+            android:layout_width="42dp"
+            android:layout_height="35dp"
+            android:background="@drawable/rectangle_3"
+            android:text="Th4"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/thursday"
+            android:layout_width="42dp"
+            android:layout_height="35dp"
+            android:background="@drawable/rectangle_3"
+            android:text="Th5"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/friday"
+            android:layout_width="42dp"
+            android:layout_height="35dp"
+            android:background="@drawable/rectangle_3"
+            android:text="Th6"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/saturday"
+            android:layout_width="42dp"
+            android:layout_height="35dp"
+            android:background="@drawable/rectangle_3"
+            android:text="Th7"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/sunday"
+            android:layout_width="42dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rectangle_3"
+            android:gravity="center"
+            android:text="CN"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_below="@+id/timePicker"-->
+<!--        android:layout_marginTop="130dp"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="92dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginRight="100dp"-->
+<!--                android:text="Nước"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="30dp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:text="pH"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="30dp"/>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:orientation="horizontal">-->
+
+<!--            <RadioGroup-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <RadioButton-->
+<!--                    android:id="@+id/pumpWater"-->
+<!--                    android:layout_width="40dp"-->
+<!--                    android:layout_height="20dp"-->
+<!--                    android:layout_marginRight="120dp" />-->
+
+<!--                <RadioButton-->
+<!--                    android:id="@+id/pump_pH"-->
+<!--                    android:layout_width="40dp"-->
+<!--                    android:layout_height="20dp" />-->
+
+<!--            </RadioGroup>-->
+
+
+<!--        </LinearLayout>-->
+
+
+<!--    </LinearLayout>-->
+
+    <!--    <LinearLayout-->
+<!--        android:id="@+id/text_H20"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/timePicker"-->
+<!--        android:layout_marginTop="218dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:visibility="invisible">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textview"-->
+<!--            android:layout_width="103dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:text="Thời gian bơm"-->
+<!--            android:textColor="@android:color/background_dark" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/editText"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="65dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:inputType="numberDecimal" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:text="phút" />-->
+
+
+<!--    </LinearLayout>-->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/timePicker"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="146dp"
+        android:background="@drawable/rectangle_9">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="107dp"
+            android:layout_height="27dp"
+            android:text="Chế độ bơm"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.058"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.13" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="40dp"
+            android:layout_height="77dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.329"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.589">
+
+            <RadioButton
+                android:id="@+id/pumpWater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <RadioButton
+                android:id="@+id/pumpNutrition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nước"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.04"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.453" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dinh dưỡng"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.047"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.726" />
+
+        <LinearLayout
+            android:id="@+id/text10"
+            android:layout_width="230dp"
+            android:layout_height="41dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.394">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="104dp"
+                android:layout_height="22dp"
+                android:text="Thời gian bơm :"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.55"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.453" />
+
+            <EditText
+                android:id="@+id/textH20"
+                android:layout_width="74dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="1dp"
+                android:inputType="numberDecimal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.775"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.453" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="51dp"
+                android:layout_height="21dp"
+                android:text="Phút"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.93"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.457" />
+
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timePicker"
+        android:layout_marginTop="390dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/buttonSave"
+            android:layout_width="117dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_13"
+            android:text="Lưu hẹn giờ"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/buttonCancel"
+            android:layout_width="123dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectange_7"
+            android:text="Thoát"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
