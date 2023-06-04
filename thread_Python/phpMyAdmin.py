@@ -8,8 +8,8 @@ def initConnectDatabase():
 
     mydb = mysql.connector.connect(
         host="localhost",
-        user="thanhphong",
-        password="07032000",
+        user="*********",
+        password="*********",
         database="zonesensor_data"
     )
     mycursor=mydb.cursor()
